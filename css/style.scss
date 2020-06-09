@@ -7,6 +7,19 @@ body {
   font-size: 32px;
 }
 
+.container {
+  max-width: 1440px;
+  margin: 0px auto;
+}
+
+.testimonials {
+  width: 100%;
+}
+
+.testimonials__img-box {
+  border: 2px solid red;
+}
+
 .attribution { 
   font-size: 11px; text-align: center;
 }
