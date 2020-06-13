@@ -7,14 +7,14 @@ body {
   color: hsl(240, 38%, 20%)
 } 
 
-.testimonials {
-  /* border: 2px solid lime; */
+.testimonial {
+  border: 2px solid lime;
 
   max-width: 1440px;
   margin: 0px auto; 
 }
 
-.testimonials__img-box {
+.testimonial__img-box {
   /* border: 2px solid red; */
 
   display: flex;
@@ -27,7 +27,7 @@ body {
   background-position: center center;
 }
 
-.testimonials__image {
+.testimonial__image {
   /* border: 2px solid blueviolet; */
 
   position: relative;
@@ -40,7 +40,7 @@ body {
   box-shadow: 13px 13px 55px -7px hsl(240, 18%, 77%);
   border-radius: 5px;
 }
-.testimonials__img {
+.testimonial__img {
   /* border: 2px solid lime; */
 
   width: 100%;
@@ -86,7 +86,7 @@ body {
   width: 30%;
 }
 
-.testimonials__quote {
+.testimonial__quote {
   /* border: 2px solid red; */
 
   display: flex;
@@ -97,14 +97,14 @@ body {
   background-size: 80%;
 }
 
-.testimonials__quote-texts {
+.testimonial__quote-texts {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-bottom: 20%;
 }
 
-.testimonials__text {
+.testimonial__text {
   /* border: 2px solid coral; */
 
   font-weight: 300;
@@ -122,18 +122,18 @@ body {
   left: calc(50% - 35px);
 }
 
-.testimonials__autor {
+.testimonial__autor {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.testimonials__autor-name {
+.testimonial__autor-name {
   font-weight: 700;
   font-size: .5em;
 }
 
-.testimonials__autor-title {
+.testimonial__autor-title {
   font-weight: 300;
   font-size: .5em;
   color: hsl(240, 18%, 77%);
@@ -141,13 +141,13 @@ body {
 }
 
 @media screen and (min-width: 767px) {
-  .testimonials {
+  .testimonial {
     display: flex;
     flex-direction: row-reverse;
     position: relative;
   }
 
-  .testimonials__img-box {
+  .testimonial__img-box {
     width: 50%;
   }
 
@@ -158,12 +158,12 @@ body {
     height: 9%;
   }
 
-  .testimonials__quote {
+  .testimonial__quote {
     width: 50%;
     justify-content: center;
   }
 
-  .testimonials__quote-texts {
+  .testimonial__quote-texts {
     align-items: flex-start;
     margin-left: 40px;
     margin-bottom: 0px;
@@ -171,7 +171,7 @@ body {
     width: 62%;
   }
 
-  .testimonials__text {
+  .testimonial__text {
     text-align: left;
   }
 
@@ -179,22 +179,18 @@ body {
     left: 15%;
   }
 
-  .testimonials__autor {
+  .testimonial__autor {
     flex-direction: row;
   }
 
-  .testimonials__autor-name {
+  .testimonial__autor-name {
     margin-left: 40px;
   }
 
-  .testimonials__autor-title {
+  .testimonial__autor-title {
     margin-left: 10px;
+    margin-top: 0px;
     align-items: baseline;
-  }
-
-  #pattern-curve {
-    position: absolute;
-    bottom: 0px;
   }
 } 
 
