@@ -9,7 +9,7 @@ I want practice my knowledge in web development.
 
 ## Screenshot
 
-![screenshot](/desing/desktop-real-image.png)  
+![screenshot](/design/desktop-real-image.png)  
 
 ## Tech/framework used
 
