@@ -8,7 +8,7 @@ body {
 } 
 
 .testimonial {
-  border: 2px solid lime;
+  /* border: 2px solid lime; */
 
   max-width: 1440px;
   margin: 0px auto; 
@@ -203,5 +203,3 @@ body {
 .attribution a {
   color: #3e52a3; 
 }
-
-/*# sourceMappingURL=style.css.map */
